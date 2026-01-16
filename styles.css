@@ -10,3 +10,10 @@
     box-sizing: border-box;
     font-family: Raleway, sans-serif;
 }
+
+.hero-section {
+    background-color: var(--brand-color);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
