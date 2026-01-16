@@ -99,6 +99,7 @@ main {
 /* out of the hero section... */
 .component-section {
     margin: 0 1rem;
+    background-color: var(--text-color);
 }
 
 .component-section h1 {
@@ -106,3 +107,11 @@ main {
     font-size: 2rem;
     font-weight: 900;
 }
+
+/* the cards styling... */
+.card {
+    background-color: var(--white-color);
+    height: 200px;
+    width: 300px;
+}
+
