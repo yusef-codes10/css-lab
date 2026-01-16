@@ -93,3 +93,14 @@ main {
 .cta-section button {
     margin: 1rem;
 }
+
+/* out of the hero section... */
+.component-section {
+    margin: 0 1rem;
+}
+
+.component-section h1 {
+    color: var(--brand-color);
+    font-size: 2rem;
+    font-weight: 900;
+}
