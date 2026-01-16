@@ -22,7 +22,7 @@
 
 nav {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
 }
 nav .logo {
@@ -30,6 +30,7 @@ nav .logo {
     font-weight: 600;
     color: var(--text-color);
     padding: 1rem 2rem;
+    cursor: pointer;
 }
 
 nav .logo span {
@@ -58,6 +59,7 @@ nav button {
     border: none;
     border-radius: 0.8rem;
     cursor: pointer;
+    transition: .2s;
 }
 
 nav button:hover {
