@@ -5,6 +5,11 @@
     --text-color: #E7E7F1;
     --text-hover: #e7e7f1d4;
     --white-color: #FFFFFF;
+
+
+    --html-color: #DD4B25;
+    --css-color: #2164AF;
+    --js-color: #F7DF1E;
 }
 
 * {
@@ -114,4 +119,13 @@ main {
     height: 200px;
     width: 300px;
 }
+
+.html, .css, .js {
+    padding: 2px 4px;
+    
+}
+
+.html {background-color: var(--html-color);}
+.css {background-color: var(--css-color);}
+.js {background-color: var(--js-color);}
 
