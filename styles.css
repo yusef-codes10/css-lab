@@ -69,6 +69,12 @@ button:hover {
 /* main section styling... */
 main {
     display: flex;
+    height: 100%;
+    /* align-items: center; */
+}
+
+.cta-section {
+    margin: 5rem;
 }
 
 .cta-section .cta-title {
