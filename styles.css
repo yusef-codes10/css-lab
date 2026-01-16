@@ -70,3 +70,10 @@ button:hover {
 main {
     display: flex;
 }
+
+.cta-section .cta-title {
+    color: var(--text-color);
+    font-size: 3rem;
+    font-weight: 900;
+    margin: 1rem;
+}
