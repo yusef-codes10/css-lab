@@ -103,8 +103,10 @@ main {
 
 /* out of the hero section... */
 .component-section {
-    margin: 0 1rem;
+    /* margin: 0 1rem; */
     background-color: var(--text-color);
+    /* flex: 1; */
+    height: 100%;
 }
 
 .component-section h1 {
@@ -119,7 +121,7 @@ main {
     height: 200px;
     width: 300px;
     padding: 1rem 2rem;
-    margin: 2rem;
+    /* margin: 2rem; */
 }
 
 .langs-used {
