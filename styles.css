@@ -32,3 +32,11 @@ nav .logo {
 nav .logo span {
     color: var(--secondary-color);
 }
+
+nav .headers a {
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: var(--text-color);
+    margin: 1rem;
+}
