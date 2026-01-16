@@ -2,6 +2,7 @@
     --brand-color: #060F34;
     --secondary-color: #E0A417;
     --text-color: #E7E7F1;
+    --text-hover: #e7e7f1d4;
 }
 
 * {
@@ -27,6 +28,7 @@ nav .logo {
     font-size: 2rem;
     font-weight: 600;
     color: var(--text-color);
+    padding: 1rem 2rem;
 }
 
 nav .logo span {
@@ -39,4 +41,9 @@ nav .headers a {
     font-weight: 400;
     color: var(--text-color);
     margin: 1rem;
+    transition: .2s;
+}
+
+nav .headers a:hover {
+    color: var(--text-hover);
 }
