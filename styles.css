@@ -1,3 +1,9 @@
+:root {
+    --brand-color: #060F34;
+    --secondary-color: #E0A417;
+    --text-color: #E7E7F1;
+}
+
 * {
     margin: 0;
     padding: 0;
