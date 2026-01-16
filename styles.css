@@ -120,12 +120,25 @@ main {
     width: 300px;
 }
 
+.langs-used {
+    display: flex;
+    gap: 6px;
+    margin-right: 1rem;
+}
+
 .html, .css, .js {
     padding: 2px 4px;
-    
+    border: 1px solid var(--brand-color);
+    width: 50px;
+    height: auto;
+    text-align: center;
+    font-weight: bold;
+    font-size: 0.8rem;
+    color: var(--text-color);
+    border-radius: 2px;
 }
 
 .html {background-color: var(--html-color);}
 .css {background-color: var(--css-color);}
-.js {background-color: var(--js-color);}
+.js {background-color: var(--js-color); color: var(--brand-color);}
 
