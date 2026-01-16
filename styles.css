@@ -1,6 +1,7 @@
 :root {
     --brand-color: #060F34;
     --secondary-color: #E0A417;
+    --secondary-hover: #e0a417b9;
     --text-color: #E7E7F1;
     --text-hover: #e7e7f1d4;
 }
@@ -46,4 +47,19 @@ nav .headers a {
 
 nav .headers a:hover {
     color: var(--text-hover);
+}
+
+nav button {
+    background-color: var(--secondary-color);
+    color: var(--brand-color);
+    font-size: 1.2rem;
+    font-weight: 600;
+    padding: 12px 16px;
+    border: none;
+    border-radius: 0.8rem;
+    cursor: pointer;
+}
+
+nav button:hover {
+    background-color: var(--secondary-hover);
 }
