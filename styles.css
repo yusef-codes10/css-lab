@@ -65,3 +65,8 @@ nav button {
 nav button:hover {
     background-color: var(--secondary-hover);
 }
+
+/* main section styling... */
+main {
+    display: flex;
+}
