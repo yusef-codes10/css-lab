@@ -118,12 +118,13 @@ main {
     background-color: var(--white-color);
     height: 200px;
     width: 300px;
+    padding: 1rem 2rem;
 }
 
 .langs-used {
     display: flex;
     gap: 6px;
-    margin-right: 1rem;
+    /* margin-right: 1rem; */
 }
 
 .html, .css, .js {
@@ -141,4 +142,16 @@ main {
 .html {background-color: var(--html-color);}
 .css {background-color: var(--css-color);}
 .js {background-color: var(--js-color); color: var(--brand-color);}
+
+.card-title {
+    margin: 1rem 0;
+    font-weight: 800;
+    font-size: 1.5rem;
+    color: var(--brand-color);
+}
+
+.card-discription {
+    margin: 1rem 0;
+    color: var(--brand-color);
+}
 
