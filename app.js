@@ -2,7 +2,6 @@ import { cards } from "./cards.js";
 
 // 1- load the cards components
 // 2- navigate through cards contents
-
 const cardsSection = document.querySelector('.cards');
 
 function loadContent() {
@@ -39,6 +38,11 @@ function loadContent() {
         }
     )
 }
+
+// 
+document.addEventListener('DOMContentLoaded',
+    loadContent
+)
 
 // ketdown event for testing
 document.addEventListener('keydown', 
