@@ -7,4 +7,6 @@ const componentSection = document.querySelector('.component-section');
 
 function loadContent() {
     // creating the divs, loading cards.js content here
+
+            
 }
