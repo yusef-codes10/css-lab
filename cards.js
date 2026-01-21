@@ -17,6 +17,12 @@ const cards = [
         langsUsed: ['html', 'css', 'js'],
         cardTitle: 'Navbar',
         cardDiscription: 'Responsive Navbar'
+    }, 
+    {
+        id: 'animation',
+        langsUsed: ['css'],
+        cardTitle: 'Animation',
+        cardDiscription: 'View a variety of awesome CSS3 Animations that you can edit and slot right into your next website!'
     }
 ]
 
