@@ -10,6 +10,7 @@ function loadContent() {
     cards.forEach(
         card => {
             const div = document.createElement('div');
+            div.classList.add('card');
 
             div.innerHTML = `
                 <div class="card-title">${card.cardTitle}</div>
