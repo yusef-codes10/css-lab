@@ -7,6 +7,15 @@ const cards = [
         cardDiscription: 'View a cool retro button'
     }, 
     {
-
+        id: 'navbar1',
+        langsUsed: ['html', 'css'],
+        cardTitle: 'Navbar',
+        cardDiscription: 'Modern navabr layout'
+    },
+    {
+        id: 'navbar2',
+        langsUsed: ['html', 'css'],
+        cardTitle: 'Navbar',
+        cardDiscription: 'Responsive Navbar'
     }
 ]
