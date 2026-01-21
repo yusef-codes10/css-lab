@@ -28,8 +28,8 @@ function loadContent() {
             card.langsUsed.forEach(
                 lang => {
                     const langContainer = document.createElement('div');
-                    lang.classList.add(lang);
-                    lang.innerHTML = `<p>${lang}</p>`;
+                    langContainer.classList.add(lang);
+                    langContainer.innerHTML = `<p>${lang}</p>`;
 
                     langsUsedContainer.appendChild(langContainer);
                 }
