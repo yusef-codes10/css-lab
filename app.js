@@ -19,6 +19,7 @@ function loadContent() {
                 </div>
             `;
 
+            componentSection.appendChild(div);
         }
     )
 }
