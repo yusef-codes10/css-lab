@@ -14,7 +14,7 @@ const cards = [
     },
     {
         id: 'navbar2',
-        langsUsed: ['html', 'css'],
+        langsUsed: ['html', 'css', 'js'],
         cardTitle: 'Navbar',
         cardDiscription: 'Responsive Navbar'
     }

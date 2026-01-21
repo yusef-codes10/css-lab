@@ -31,7 +31,7 @@ function loadContent() {
                     lang.classList.add(lang);
                     lang.innerHTML = `<p>${lang}</p>`;
 
-
+                    langsUsedContainer.appendChild(langContainer);
                 }
             )
 
