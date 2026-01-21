@@ -23,3 +23,12 @@ function loadContent() {
         }
     )
 }
+
+// ketdown event for testing
+document.addEventListener('keydown', 
+    event => {
+        if (event.key === 'Enter') {
+            loadContent();
+        }
+    }
+)
