@@ -20,13 +20,18 @@ function loadContent() {
                      <button>Check Component</button>
                 </div>
             `;
+            // declaring the langs-used
+            const langsUsedContainer = document.querySelector('.langs-used');
+
 
             // adding langs
             card.langsUsed.forEach(
                 lang => {
                     const langContainer = document.createElement('div');
                     lang.classList.add(lang);
-                    lang.innerHTML = `<p>${lang}</p>`
+                    lang.innerHTML = `<p>${lang}</p>`;
+
+
                 }
             )
 
