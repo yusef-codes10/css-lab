@@ -10,7 +10,15 @@ function loadContent() {
     cards.forEach(
         card => {
             const div = document.createElement('div');
-            
+
+            div.innerHTML = `
+                <div class="card-title">${card.cardTitle}</div>
+                <div class="card-discription">${card.cardDiscription}</div>
+                <div class="card-btn">
+                     <button>Check Component</button>
+                </div>
+            `;
+
         }
     )
 }
