@@ -13,6 +13,7 @@ function loadContent() {
             div.classList.add('card');
 
             div.innerHTML = `
+                <div class="langs-used"></div>
                 <div class="card-title">${card.cardTitle}</div>
                 <div class="card-discription">${card.cardDiscription}</div>
                 <div class="card-btn">
