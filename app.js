@@ -9,7 +9,8 @@ function loadContent() {
     // creating the divs, loading cards.js content here
     cards.forEach(
         card => {
-
+            const div = document.createElement('div');
+            
         }
     )
 }
