@@ -24,7 +24,9 @@ function loadContent() {
             // adding langs
             card.langsUsed.forEach(
                 lang => {
-                    
+                    const langContainer = document.createElement('div');
+                    lang.classList.add(lang);
+                    lang.innerHTML = `<p>${lang}</p>`
                 }
             )
 
