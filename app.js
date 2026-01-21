@@ -21,7 +21,7 @@ function loadContent() {
                 </div>
             `;
             // declaring the langs-used
-            const langsUsedContainer = document.querySelector('.langs-used');
+            const langsUsedContainer = div.querySelector('.langs-used');
 
 
             // adding langs
