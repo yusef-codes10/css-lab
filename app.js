@@ -21,6 +21,13 @@ function loadContent() {
                 </div>
             `;
 
+            // adding langs
+            card.langsUsed.forEach(
+                lang => {
+                    
+                }
+            )
+
             cardsSection.appendChild(div);
         }
     )
