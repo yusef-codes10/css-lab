@@ -23,6 +23,12 @@ const cards = [
         langsUsed: ['css'],
         cardTitle: 'Animation',
         cardDiscription: 'View a variety of awesome CSS3 Animations that you can edit and slot right into your next website!'
+    },
+    {
+        id: 'text-input',
+        langsUsed: ['html', 'css'],
+        cardTitle: 'Text Input',
+        cardDiscription: 'View a selection of text input forms ranging from text inputs, textarea\'s, radio buttons, and custom dropdown menus. Many components include custom focus, hover & active states!'
     }
 ]
 
