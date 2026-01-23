@@ -52,3 +52,6 @@ document.addEventListener('keydown',
         }
     }
 )
+
+
+// TODO: 1- I need to saparate the langs-used into a depandant function 
