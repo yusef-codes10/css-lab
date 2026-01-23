@@ -102,7 +102,7 @@ main {
 }
 
 /* out of the hero section... */
-.component-section {
+.sections, .component-section {
     /* margin: 0 1rem; */
     background-color: var(--text-color);
     /* flex: 1; */
