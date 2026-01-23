@@ -29,6 +29,12 @@ const cards = [
         langsUsed: ['html', 'css'],
         cardTitle: 'Text Input',
         cardDiscription: 'View a selection of text input forms ranging from text inputs, textarea\'s, radio buttons, and custom dropdown menus. Many components include custom focus, hover & active states!'
+    },
+    {
+        id: 'miscellaneous',
+        langsUsed: ['html', 'css', 'js'],
+        cardTitle: 'Miscellaneous',
+        cardDiscription: 'A random selection of components that didn\'t quite fit in any of the other categories!'
     }
 ]
 
