@@ -126,11 +126,12 @@ main {
 
 /* ! question here */
 .questions {
-    margin: 2rem;
+    margin: 1rem 2rem;
     display: flex;
     flex-direction: column;
 }
 
 .question {
-    
+    width: 100%;
+    background-color: var(--white-color);
 }
