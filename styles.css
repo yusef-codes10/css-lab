@@ -147,6 +147,8 @@ main {
 .answer {
     font-size: 1.2rem;
     color: var(--brand-color);
+    max-width: 0;
+    overflow: hidden;
 }
 
 .question i {
