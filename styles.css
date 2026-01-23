@@ -135,6 +135,7 @@ main {
     width: 100%;
     background-color: var(--white-color);
     padding: 0 1rem;
+    position: relative;
 }
 
 .question-title {
@@ -146,4 +147,13 @@ main {
 .answer {
     font-size: 1.2rem;
     color: var(--brand-color);
+}
+
+.question i {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    font-size: 1.2rem;
+    color: var(--brand-color);
+    cursor: pointer;
 }
