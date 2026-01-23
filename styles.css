@@ -120,6 +120,10 @@ main {
 .cards {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    grid-template-areas: 
+    "button button animation icon"
+    "button button textinput textinput"
+    "miscellaneous miscellaneous modal modal";
     gap: 1rem;
     margin: 0 2rem;
 }
