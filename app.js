@@ -11,6 +11,9 @@ function loadContent() {
             const div = document.createElement('div');
             div.classList.add('card');
 
+            // 👇 THIS is the key line
+            div.style.gridArea = card.girdArea;
+
             div.innerHTML = `
                 <div class="langs-used"></div>
                 <div class="card-title">${card.cardTitle}</div>
