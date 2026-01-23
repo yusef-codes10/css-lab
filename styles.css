@@ -119,7 +119,7 @@ main {
 /* the cards styling... */
 .cards {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: repeat(4, 1fr);
     grid-template-areas: 
     "button button animation icon"
     "button button textinput textinput"
@@ -130,7 +130,7 @@ main {
 
 .card {
     background-color: var(--white-color);
-    height: 200px;
+    /* height: 200px; */
     /* width: 300px; */
     padding: 1rem 2rem;
     /* margin: 2rem; */
