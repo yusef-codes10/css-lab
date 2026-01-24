@@ -137,6 +137,7 @@ main {
     background-color: var(--white-color);
     padding: 0 1rem;
     position: relative;
+    margin: 0.5rem 0;
 }
 
 .question-title {
