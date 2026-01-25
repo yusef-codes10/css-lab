@@ -1,10 +1,14 @@
 // this is the faq accordion 
 // we should use event delegation
 
-const questions = document.querySelector('.questions');
-console.log(questions);
+const questions = document.querySelector('.component-section');
+const btn = document.querySelectorAll('button');
 
-questions.addEventListener(e => {
+btn.addEventListener('click', () => {
+    console.log('is has been clicked');
+})
+
+questions.addEventListener('click', e => {
     console.log(questions);
 })
 
