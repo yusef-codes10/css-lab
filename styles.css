@@ -170,3 +170,9 @@ aside {
     color: var(--brand-color);
     cursor: pointer;
 }
+
+@media (width: 500px) {
+    .mobile-only {
+        display: inline-block;
+    }
+}
