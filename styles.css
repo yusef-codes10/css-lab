@@ -127,6 +127,9 @@ aside {
     color: var(--brand-color);
 }
 
+.mobile-only {
+    display: none;
+}
 
 
 /* ! question here */
