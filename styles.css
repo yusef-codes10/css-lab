@@ -79,6 +79,11 @@ main {
     /* align-items: center; */
 }
 
+aside {
+    width: 30%;
+    background-color: seagreen;
+}
+
 .cta-section {
     margin: 5rem;
 }
