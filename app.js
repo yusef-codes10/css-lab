@@ -1,4 +1,5 @@
 import { cards } from "./cards.js";
+import { questions } from "./faq.js";
 
 // 1- load the cards components
 // 2- navigate through cards contents

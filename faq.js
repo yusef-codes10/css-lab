@@ -3,13 +3,15 @@
 
 const questions = document.querySelector('.component-section');
 const btn = document.querySelectorAll('button');
+const blogBtn = document.querySelector('#blogBtn');
 
-btn.addEventListener('click', () => {
-    console.log('is has been clicked');
-})
+// blogBtn.addEventListener('click', () => {
+//     console.log('blogBtn has been clicked');
+// })
 
-questions.addEventListener('click', e => {
-    console.log(questions);
-})
+
+// questions.addEventListener('click', e => {
+//     console.log(questions);
+// })
 
 export {questions};
