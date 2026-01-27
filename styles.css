@@ -87,7 +87,7 @@ aside {
 }
 
 .cta-section {
-    margin: 5rem;
+    margin: min(5rem, 10vw);
 }
 
 .cta-section .cta-title {
