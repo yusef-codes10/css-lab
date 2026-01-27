@@ -101,7 +101,8 @@ aside {
 
 .cta-section .cta-discription {
     color: var(--text-color);
-    font-size: clamp(0.95rem, 0.6vw + 0.7rem, 5rem);
+    font-size: clamp(1rem, 4vw + 1.2rem, 1.5rem);
+    /* max-width: 700px; */
     margin: 1rem;
     max-width: 700px;   /* to keep it readable across wide screens */
 }
