@@ -131,46 +131,6 @@ aside {
     display: none;
 }
 
-
-/* ! question here */
-.questions {
-    margin: 1rem 2rem;
-    display: flex;
-    flex-direction: column;
-}
-
-.question {
-    width: 100%;
-    max-height: 100px;
-    background-color: var(--white-color);
-    padding: 0 1rem;
-    position: relative;
-    margin: 0.5rem 0;
-}
-
-.question-title {
-    color: var(--brand-color);
-    font-weight: 800;
-    margin: 0.5rem 0;
-}
-
-.answer {
-    font-size: 1.2rem;
-    color: var(--brand-color);
-    max-width: 0;
-    overflow: hidden;
-    transition: max-height 0.3s ease;
-}
-
-.question i {
-    position: absolute;
-    top: 15px;
-    right: 15px;
-    font-size: 1.2rem;
-    color: var(--brand-color);
-    cursor: pointer;
-}
-
 @media (width: 500px) {
     .mobile-only {
         display: inline-block;

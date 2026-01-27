@@ -3,6 +3,8 @@ import { questions } from "./faq.js";
 
 // 1- load the cards components
 // 2- navigate through cards contents
+console.log('js js js ');
+console.log(questions);
 const cardsSection = document.querySelector('.cards');
 
 function loadContent() {
