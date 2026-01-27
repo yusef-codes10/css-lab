@@ -31,7 +31,9 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: min(2rem, 8%);
+    padding: 
+        clamp(0.75rem, 2vw, 1.5rem)
+        clamp(1rem, 4vw, 3rem);
 }
 nav .logo {
     font-size: 2rem;
@@ -99,7 +101,7 @@ aside {
 
 .cta-section .cta-discription {
     color: var(--text-color);
-    font-size: clamp(0.95rem, 0.6vw + 0.7rem, 1.1rem);
+    font-size: clamp(0.95rem, 0.6vw + 0.7rem, 5rem);
     margin: 1rem;
     max-width: 700px;   /* to keep it readable across wide screens */
 }
