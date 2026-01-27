@@ -61,9 +61,13 @@
 
 @media(max-width: 575px) {
     .cards {
-        display: flex;
-        flex-direction: column;
-        /* gap: 1rem;
-        margin: 0 2rem; */
+        grid-template-columns: 1fr;
+        grid-template-areas:
+            "button"
+            "animation"
+            "icon"
+            "textinput"
+            "miscellaneous"
+            "modal";
     }
 }
