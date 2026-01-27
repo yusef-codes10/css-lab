@@ -21,7 +21,7 @@
 
 .hero-section {
     background-color: var(--brand-color);
-    height: 100vh;
+    height: 100dvh;
     display: flex;
     flex-direction: column;
     width: 100%;
