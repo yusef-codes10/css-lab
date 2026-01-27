@@ -99,7 +99,7 @@ aside {
 
 .cta-section .cta-discription {
     color: var(--text-color);
-    font-size: 2rem;
+    font-size: clamp(0.95rem, 0.6vw + 0.7rem, 1.1rem);
     margin: 1rem;
     max-width: 700px;   /* to keep it readable across wide screens */
 }
