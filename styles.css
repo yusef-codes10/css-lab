@@ -117,7 +117,7 @@ aside {
     background-color: var(--text-color);
     /* flex: 1; */
     height: 100%;
-    padding: min(1.2rem, 10%);
+    padding: 2rem;
 }
 
 .comp-title {
@@ -147,5 +147,8 @@ aside {
     }
     nav .logo, nav .headers {
         display: none;
+    }
+    .component-section, .sections {
+        padding: 0.2rem;
     }
 }
