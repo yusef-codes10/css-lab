@@ -131,8 +131,11 @@ aside {
     display: none;
 }
 
-@media (width: 500px) {
+@media (max-width: 500px) {
     .mobile-only {
         display: inline-block;
+    }
+    nav .headers {
+        display: none;
     }
 }
