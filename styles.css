@@ -31,7 +31,7 @@ nav {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding: min(1em, 8%);
+    padding: min(1rem, 8%);
 }
 nav .logo {
     font-size: 2rem;
@@ -92,7 +92,7 @@ aside {
 
 .cta-section .cta-title {
     color: var(--text-color);
-    font-size: 5vw;
+    font-size: clamp(1.5rem, 10vw, 4rem);
     font-weight: 900;
     margin: 1rem;
 }
