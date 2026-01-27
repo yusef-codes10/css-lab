@@ -29,9 +29,9 @@
 
 nav {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
-    padding: min(1rem, 8%);
+    padding: min(2rem, 8%);
 }
 nav .logo {
     font-size: 2rem;
