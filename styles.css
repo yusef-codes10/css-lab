@@ -92,7 +92,7 @@ aside {
 
 .cta-section .cta-title {
     color: var(--text-color);
-    font-size: 3rem;
+    font-size: 5vw;
     font-weight: 900;
     margin: 1rem;
 }
