@@ -137,7 +137,7 @@ aside {
     display: none;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 575px) {
     .mobile-only {
         display: inline-block;
     }
