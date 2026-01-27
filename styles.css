@@ -114,6 +114,7 @@ aside {
     background-color: var(--text-color);
     /* flex: 1; */
     height: 100%;
+    padding: min(1.2rem, 10%);
 }
 
 .comp-title {
